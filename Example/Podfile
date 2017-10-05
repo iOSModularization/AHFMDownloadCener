@@ -1,0 +1,31 @@
+use_frameworks!
+
+source 'https://github.com/iOSModularization/AHFMSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AHFMDownloadCenter_Example' do
+    pod 'AHFMDownloadCenter', :path => '../'
+    
+    pod 'AHServiceRouter'
+    
+    pod 'AHAudioPlayer'
+    pod 'AHFMAudioPlayerManager'
+    
+    pod 'AHFMDownloadListServices'
+    pod 'AHFMDownloadListManager'
+    pod 'AHFMDownloadList'
+    
+    pod 'AHDownloader'
+    pod 'AHFMDownloaderManager'
+    
+    pod 'AHFMDownloadCenterManager'
+    
+    pod 'AHFMAudioPlayerVC'
+    pod 'AHFMAudioPlayerVCManager'
+    
+    target 'AHFMDownloadCenter_Tests' do
+        inherit! :search_paths
+        
+        
+    end
+end
