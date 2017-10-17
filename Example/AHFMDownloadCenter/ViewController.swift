@@ -25,7 +25,7 @@ import AHFMNetworking
 import AHFMDataTransformers
 import SwiftyJSON
 import AHFMDataCenter
-
+import AHFMBottomPlayerManager
 import SVProgressHUD
 
 class ViewController: UIViewController {
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         AHFMAudioPlayerManager.activate()
         AHFMDownloaderManager.activate()
         AHFMAudioPlayerVCManager.activate()
+        AHFMBottomPlayerManager.activate()
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

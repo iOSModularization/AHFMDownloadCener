@@ -8,6 +8,9 @@ target 'AHFMDownloadCenter_Example' do
     
     pod 'AHServiceRouter'
     
+    pod 'AHFMBottomPlayer'
+    pod 'AHFMBottomPlayerManager'
+    
     pod 'AHAudioPlayer'
     pod 'AHFMAudioPlayerManager'
     
